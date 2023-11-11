@@ -65,11 +65,10 @@ for (var i = 0; i < 1; i++) {
 
 // #2: random string generator
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
-var randomIndex = Math.floor(Math.random() * alphabet.length);
-
 var randomString = "";
+var stringLenght = 6;
 
-while (randomString < 6) {
-  console.log(randomString += alphabet[randomIndex]);
-  alphabet[randomIndex]++;
+while (randomString.length < stringLenght) {
+randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
 }
+console.log(randomString);
