@@ -67,3 +67,8 @@ for (var i = 0; i < 1; i++) {
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
 var randomIndex = Math.floor(Math.random() * alphabet.length); 
 var randomString = "";
+
+while (randomString.length < 6) {
+  console.log(randomString);
+  randomIndex++;
+}
