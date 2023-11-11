@@ -13,7 +13,7 @@ for (var sheepCounted = 0; sheepCounted < 10; sheepCounted++) {
 console.log("Zzzzzzzzzzz");
 
 // Hello!
-var timeToSayHello = 3;
-for (var i = 0; i < timeToSayHello; i++) {
+var timesToSayHello = 3;
+for (var i = 0; i < timesToSayHello; i++) {
   console.log("Hello!");
 }
