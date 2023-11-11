@@ -32,3 +32,8 @@ var name = "Nick";
 for (var i = 0; i < name.length; i++) {
   console.log("My name contains the letter " + name[i] + ".");
 }
+
+// other ways to use cycles
+for (var x = 2; x < 10000; x = x * 2){
+  console.log(x);
+}
