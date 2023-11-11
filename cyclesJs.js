@@ -34,6 +34,11 @@ for (var i = 0; i < name.length; i++) {
 }
 
 // other ways to use cycles
-for (var x = 2; x < 10000; x = x * 2){
+for (var x = 2; x < 10000; x = x * 2) {
   console.log(x);
+}
+
+// lets try
+for (var y = 3; y < 10000; y = y * 3) {
+  console.log(y);
 }
