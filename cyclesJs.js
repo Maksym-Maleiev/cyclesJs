@@ -43,3 +43,8 @@ for (var y = 3; y < 10000; y = y * 3) {
   console.log(y);
 }
 // (use while-cycle)
+var y = 3;
+while (y < 10000) {
+  console.log(y);
+  y = y * 3;
+}
