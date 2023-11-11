@@ -5,3 +5,5 @@ while (sheepCounted < 10) {
   sheepCounted++;
 }
 console.log("Zzzzzzzzzzz");
+
+// for-cycle
