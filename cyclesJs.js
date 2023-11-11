@@ -53,11 +53,11 @@ while (y < 10000) {
 
 // #1: awesome animals
 var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
-animals[0] = "Awesome " + animals[0];
-animals[1] = "Awesome " + animals[1];
-animals[2] = "Awesome " + animals[2];
-animals[3] = "Awesome " + animals[3];
+// animals[0] = "Awesome " + animals[0];
+// animals[1] = "Awesome " + animals[1];
+// animals[2] = "Awesome " + animals[2];
+// animals[3] = "Awesome " + animals[3];
 
 for (var i = 0; i < animals.length; i++) {
-  consol.log("Awesome " + animals[i]);
+  console.log("Awesome " + animals[i]);
 }
