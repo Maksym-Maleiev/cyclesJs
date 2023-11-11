@@ -59,6 +59,6 @@ animals[1] = "Awesome " + animals[1];
 animals[2] = "Awesome " + animals[2];
 animals[3] = "Awesome " + animals[3];
 
-for (var i = 0; i < animals.length; i++) {
+for (var animal = 0; animal < animals.length; animal++) {
   console.log(animals);
 }
