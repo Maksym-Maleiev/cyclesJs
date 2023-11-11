@@ -38,7 +38,8 @@ for (var x = 2; x < 10000; x = x * 2) {
   console.log(x);
 }
 
-// lets try
+// lets try (use for-cycle)
 for (var y = 3; y < 10000; y = y * 3) {
   console.log(y);
 }
+// (use while-cycle)
