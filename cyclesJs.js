@@ -59,6 +59,9 @@ animals[1] = "Awesome " + animals[1];
 animals[2] = "Awesome " + animals[2];
 animals[3] = "Awesome " + animals[3];
 
-for (var animal = 0; animal < animals.length; animal++) {
+for (var i = 0; i < 1; i++) {
   console.log(animals);
 }
+
+// #2: random string generator
+ 
