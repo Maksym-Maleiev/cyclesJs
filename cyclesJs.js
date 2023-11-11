@@ -69,6 +69,6 @@ var randomIndex = Math.floor(Math.random() * alphabet.length);
 var randomString = "";
 
 while (randomString.length < 6) {
-  console.log(randomString += randomIndex);
-  randomIndex++;
+  console.log(randomString += alphabet[randomIndex]);
+  alphabet[randomIndex]++;
 }
