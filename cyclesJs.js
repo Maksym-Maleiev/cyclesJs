@@ -20,11 +20,13 @@ for (var i = 0; i < timesToSayHello; i++) {
 
 // for-cycle amd array
 // Animals
+/*
 var animals = ["Lion", "Flamingo", "Polar Bear", "Boa Constrictor"];
 
 for (var i = 0; i < animals.length; i++) {
   console.log("This zoo contains a " + animals[i] + ".");
 }
+*/
 
 // Name
 var name = "Nick";
@@ -47,4 +49,11 @@ var y = 3;
 while (y < 10000) {
   console.log(y);
   y = y * 3;
+}
+
+// #1: awesome animals
+var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
+
+for (var i = 0; i < animals[i]; i++) {
+  consol.log("Awesome " + animals[i]);
 }
