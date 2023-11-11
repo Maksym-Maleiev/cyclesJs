@@ -7,3 +7,7 @@ while (sheepCounted < 10) {
 console.log("Zzzzzzzzzzz");
 
 // for-cycle
+for (var sheepCounted = 0; sheepCounted < 10; sheepCounted++) {
+  console.log("I have counted " + sheepCounted + " sheep!");
+}
+console.log("Zzzzzzzzzzz");
