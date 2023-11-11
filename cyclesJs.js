@@ -17,3 +17,10 @@ var timesToSayHello = 3;
 for (var i = 0; i < timesToSayHello; i++) {
   console.log("Hello!");
 }
+
+// for-cycle amd array
+var animals = ["Lion", "Flamingo", "Polar Bear", "Boa Constrictor"];
+
+for (var i = 0; i < animals.length; i++) {
+  console.log("This zoo contains a " + animals[i] + ".");
+}
