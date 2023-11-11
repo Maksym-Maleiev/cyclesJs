@@ -54,6 +54,6 @@ while (y < 10000) {
 // #1: awesome animals
 var animals = ["Cat", "Fish", "Lemur", "Komodo Dragon"];
 
-for (var i = 0; i < animals[i]; i++) {
+for (var i = 0; i < animals.length; i++) {
   consol.log("Awesome " + animals[i]);
 }
