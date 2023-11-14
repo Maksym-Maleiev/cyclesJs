@@ -82,5 +82,6 @@ var i = 1;
 var o = 0;
 
 for (var i = 0; i < output; i++){
+
 };
 console.log(output);
