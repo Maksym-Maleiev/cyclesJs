@@ -88,12 +88,7 @@ var output = "";
 
 // ----------------
 
-input["a"] = 4;
-input["e"] = 3;
-input["i"] = 1;
-input["o"] = 0;
-
 for (var i = 0; i < input.length; i++) {
-  output + "j" += input["a"] +;
+  output + "j" += ;
 };
 console.log(output);
