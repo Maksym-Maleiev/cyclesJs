@@ -76,3 +76,8 @@ console.log(randomString);
 // #3: H4CK3R SP34K
 var input = "javascript is awesome";
 var output = "";
+
+for (var a = 4; a < 4; a++){
+  output += "j" += a += "v" += a;
+};
+console.log("output");
