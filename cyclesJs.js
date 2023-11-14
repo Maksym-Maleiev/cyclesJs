@@ -94,5 +94,5 @@ input["i"] = 1;
 input["o"] = 0;
 
 for (var i = 0; i < input.length; i++){
-output += input["a"]
+output
 };
