@@ -77,7 +77,7 @@ console.log(randomString);
 var input = "javascript is awesome";
 var output = "";
 
-for (var i = 0; i < output.length; i++){
+for (var i = 0; i < input.length; i++){
   output;
 };
 console.log(output);
