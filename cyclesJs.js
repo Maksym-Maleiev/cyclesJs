@@ -87,7 +87,7 @@ for (var i = 0; i < input.length; i++) {
   } else if (input[i] === "o") {
     console.log(output += 0);
   } else {
-    console.log(output + input[i]);
+    console.log(output += input[i]);
   }
 };
 console.log(output);
