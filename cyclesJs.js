@@ -78,6 +78,6 @@ var input = "javascript is awesome";
 var output = "";
 
 for (var i = 0; i < output.length; i++){
-  output += "j";
+  output;
 };
 console.log(output);
