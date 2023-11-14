@@ -89,6 +89,6 @@ var output = "";
 // ----------------
 
 for (var i = 0; i < input.length; i++) {
-  output + "j" += ;
+  output += 4;
 };
 console.log(output);
