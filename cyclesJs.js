@@ -93,6 +93,7 @@ input["e"] = 3;
 input["i"] = 1;
 input["o"] = 0;
 
-for (var i = 0; i < input.length; i++){
-output
+for (var i = 0; i < input.length; i++) {
+  output += input;
 };
+console.log(output);
