@@ -85,3 +85,14 @@ var output = "";
 // for (var i = 0; i < input.length; i++){
 //   console.log(output + "j" + letterA + "v" + letterA + "scr" + letterI + "pt " + letterI + "s " + letterA + "w" + letterE + "s" + letterO + "m" + letterE);
 // };
+
+// ----------------
+
+input["a"] = 4;
+input["e"] = 3;
+input["i"] = 1;
+input["o"] = 0;
+
+for (var i = 0; i < input.length; i++){
+output += input["a"]
+};
