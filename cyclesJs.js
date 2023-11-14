@@ -72,3 +72,7 @@ while (randomString.length < stringLenght) {
 randomString += alphabet[Math.floor(Math.random() * alphabet.length)];
 }
 console.log(randomString);
+
+// #3: H4CK3R SP34K
+var input = "javascript is awesome";
+var output = "";
