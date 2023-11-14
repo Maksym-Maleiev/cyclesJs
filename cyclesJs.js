@@ -89,6 +89,6 @@ var output = "";
 // ----------------
 
 for (var i = 0; i < input.length; i++) {
-  output += 4;
+  output += "j" + 4 + "v" + 4 + "scr" + 1 + "pt " + 1 + "s " + 4 + "w" + 3 + "s" + 0 + "m" + 3;
 };
 console.log(output);
