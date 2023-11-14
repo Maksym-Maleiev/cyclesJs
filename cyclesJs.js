@@ -77,18 +77,17 @@ console.log(randomString);
 var input = "javascript is awesome";
 var output = "";
 
-// var letterA = "4";
-// var letterE = "3";
-// var letterI = "1";
-// var letterO = "0";
-
-// for (var i = 0; i < input.length; i++){
-//   console.log(output + "j" + letterA + "v" + letterA + "scr" + letterI + "pt " + letterI + "s " + letterA + "w" + letterE + "s" + letterO + "m" + letterE);
-// };
-
-// ----------------
-
 for (var i = 0; i < input.length; i++) {
-  output += "j" + 4 + "v" + 4 + "scr" + 1 + "pt " + 1 + "s " + 4 + "w" + 3 + "s" + 0 + "m" + 3;
+  if (a === "a") {
+    console.log(output += 4);
+  } else if (e === "e") {
+    console.log(output += 3);
+  } else if (i === "i") {
+    console.log(output += 1);
+  } else if (o === "o") {
+    console.log(output += 0);
+  } else {
+    console.log(output += input);
+  }
 };
 console.log(output);
