@@ -82,6 +82,5 @@ var i = 1;
 var o = 0;
 
 for (var i = 0; i < output; i++){
-  output += "j" += 4 += "v" += 4;
 };
-console.log("output");
+console.log(output);
