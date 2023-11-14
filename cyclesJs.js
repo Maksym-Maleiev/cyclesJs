@@ -78,16 +78,16 @@ var input = "javascript is awesome";
 var output = "";
 
 for (var i = 0; i < input.length; i++) {
-  if ("a" === 4) {
+  if ("a" == 4) {
     console.log(output += 4);
-  } else if ("e" === 3) {
+  } else if ("e" == 3) {
     console.log(output += 3);
-  } else if ("i" === 1) {
+  } else if ("i" == 1) {
     console.log(output += 1);
-  } else if ("o" === 0) {
+  } else if ("o" == 0) {
     console.log(output += 0);
   } else {
-    console.log(output += input[i]);
+    console.log(output + input[i]);
   }
 };
 console.log(output);
